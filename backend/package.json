@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev ./src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luo347070642/backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luo347070642/backend/issues"
+  },
+  "homepage": "https://github.com/luo347070642/backend#readme",
+  "dependencies": {
+    "@types/koa-router": "^7.4.4",
+    "class-transformer": "^0.4.0",
+    "koa": "^2.13.1",
+    "koa-router": "^10.1.1",
+    "koa-ts-controllers": "^3.2.2",
+    "log4js": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/node": "^16.7.4",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.2"
+  }
+}
